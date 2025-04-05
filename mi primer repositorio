@@ -1,12 +1,13 @@
-mkdir mi-primer-repositorio
-cd mi-primer-repositorio
+mkdir vicente
+cd vicente
 git init
-git config --global user.name "Silvio Vicente"
+git config --global user.name "Silvio Vicente Torrez Ortez"
 git config --global user.email "vicentetorrez09.p@gmail.com"
-echo "nombre: Silvio Vicente" > info.txt
-echo "correo: vicentetorrez09.p@gmail.com" >> info.txt
-echo "teléfono: 85393265" >> info.txt
-git add info.txt
-git commit -m "Añadir archivo info.txt con nombre, correo y teléfono"
-git status
+touch datos.txt
+echo "Nombre: Silvio Vicente Torrez Ortez" > datos.txt
+echo "Correo: vicentetorrez09.p@gmail.com" >> datos.txt
+echo "Teléfono: 85393265" >> datos.txt
+git add datos.txt
+git commit -m "Subiendo archivo con datos personales"
 git log
+
